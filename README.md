@@ -24,7 +24,7 @@
 * [低水位标记（Low-Water Mark）](content/low-water-mark.md)
 * Paxos
 * [Quorum](content/quorum.md)
-* 可复制日志（Replicated Log）
+* [复制日志（Replicated Log）](content/replicated-log.md)
 * 批量请求（Request Batch）
 * [请求管道（Request Pipeline）](content/request-pipeline.md)
 * [分段日志（Segmented Log）](content/segmented-log.md)
@@ -64,10 +64,10 @@
 | in-flight        | 在途          |
 | time to live     | 存活时间       |
 | head of line blocking | 队首阻塞  |
-| coordinator | 协调者 |
-| lag | 滞后 |
-| fanout | 扇出 |
-| incoming | 传入 |
-
-
+| coordinator      | 协调者        |
+| lag              | 滞后          |
+| fanout           | 扇出          |
+| incoming         | 传入          |
+| CommitIndex      | 提交索引       |
+| candidate        | 候选者        |
 
